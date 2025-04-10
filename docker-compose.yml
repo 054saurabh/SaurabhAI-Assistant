@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web_AIboat:
+    build: .
+    container_name: web_ai_container
+    restart: always
+    ports:
+      - "8501:8501"
